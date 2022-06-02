@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Navigation from './src/Routes/Navigation'
 
-const App = () => {
+const SignUp = () => {
   return (
-    <>
-    <Navigation />
-    </>
+    <View>
+      <Text>SignUp</Text>
+    </View>
   )
 }
 
-export default App
+export default SignUp
 
 const styles = StyleSheet.create({})
